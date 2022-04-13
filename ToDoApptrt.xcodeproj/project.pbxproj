@@ -16,6 +16,10 @@
 		D8F993262779ADBB007FEA05 /* ToDoApptrtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993252779ADBB007FEA05 /* ToDoApptrtTests.swift */; };
 		D8F993302779ADBB007FEA05 /* ToDoApptrtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9932F2779ADBB007FEA05 /* ToDoApptrtUITests.swift */; };
 		D8F993322779ADBB007FEA05 /* ToDoApptrtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993312779ADBB007FEA05 /* ToDoApptrtUITestsLaunchTests.swift */; };
+		D8F993402779AE0B007FEA05 /* ToDoMDL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8F9933E2779AE0B007FEA05 /* ToDoMDL.xcdatamodeld */; };
+		D8F993422779AE4A007FEA05 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993412779AE4A007FEA05 /* TableViewController.swift */; };
+		D8F993442779AEC3007FEA05 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993432779AEC3007FEA05 /* ToDoCell.swift */; };
+		D8F993462779B33C007FEA05 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993452779B33C007FEA05 /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D8F9932B2779ADBB007FEA05 /* ToDoApptrtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoApptrtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F9932F2779ADBB007FEA05 /* ToDoApptrtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApptrtUITests.swift; sourceTree = "<group>"; };
 		D8F993312779ADBB007FEA05 /* ToDoApptrtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApptrtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8F9933F2779AE0B007FEA05 /* ToDoMDL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoMDL.xcdatamodel; sourceTree = "<group>"; };
+		D8F993412779AE4A007FEA05 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D8F993432779AEC3007FEA05 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		D8F993452779B33C007FEA05 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				D8F9930E2779ADB4007FEA05 /* AppDelegate.swift */,
 				D8F993102779ADB4007FEA05 /* SceneDelegate.swift */,
 				D8F993122779ADB4007FEA05 /* ViewController.swift */,
+				D8F993412779AE4A007FEA05 /* TableViewController.swift */,
 				D8F993142779ADB4007FEA05 /* Main.storyboard */,
 				D8F993172779ADBB007FEA05 /* Assets.xcassets */,
 				D8F993192779ADBB007FEA05 /* LaunchScreen.storyboard */,
 				D8F9931C2779ADBB007FEA05 /* Info.plist */,
+				D8F9933E2779AE0B007FEA05 /* ToDoMDL.xcdatamodeld */,
+				D8F993432779AEC3007FEA05 /* ToDoCell.swift */,
+				D8F993452779B33C007FEA05 /* FormViewController.swift */,
 			);
 			path = ToDoApptrt;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F993132779ADB4007FEA05 /* ViewController.swift in Sources */,
+				D8F993442779AEC3007FEA05 /* ToDoCell.swift in Sources */,
+				D8F993462779B33C007FEA05 /* FormViewController.swift in Sources */,
 				D8F9930F2779ADB4007FEA05 /* AppDelegate.swift in Sources */,
 				D8F993112779ADB4007FEA05 /* SceneDelegate.swift in Sources */,
+				D8F993422779AE4A007FEA05 /* TableViewController.swift in Sources */,
+				D8F993402779AE0B007FEA05 /* ToDoMDL.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +634,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8F9933E2779AE0B007FEA05 /* ToDoMDL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8F9933F2779AE0B007FEA05 /* ToDoMDL.xcdatamodel */,
+			);
+			currentVersion = D8F9933F2779AE0B007FEA05 /* ToDoMDL.xcdatamodel */;
+			path = ToDoMDL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D8F993032779ADB4007FEA05 /* Project object */;
 }
